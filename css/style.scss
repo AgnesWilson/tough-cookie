@@ -1,3 +1,21 @@
-body {
-  background-color: yellow;
+button {
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border: 0;
+
+    span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    margin-bottom: 4px;
+    }
 }
+
+input:checked + button {
+  border: 3px solid red;
+}
+//kollla om jag kan lägga till en "for-loop" här för att kunna
+//beta nig igenom listan med childs. 
