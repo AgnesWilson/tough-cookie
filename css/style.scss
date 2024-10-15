@@ -9,6 +9,11 @@ button {
   height: 35px;
   background: transparent;
   border: 0;
+  position:fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+  pointer-events: none;
 
     span {
     display: block;
@@ -18,6 +23,16 @@ button {
     border-radius: 6px;
     margin-bottom: 4px;
     }
+}
+
+input {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
 }
 
 input:checked + .menu button span {
@@ -40,16 +55,18 @@ input:checked + .menu button span:nth-child(3){
 //Sidan som dyker upp när man klickar på hamburgarmeenyn
 nav{
   position:fixed;
+  top: 0;
+  left: 0;
   background-color: $client-tertiary-colour;
   width: 100vw;
   height: 100vh;
   opacity: 0;
-  transition: opacity 5s, ease-in-out;
-  display: none;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  visibility: hidden;
 }
 
 input:checked + .menu nav {
-  display: block;
+  visibility: visible;
   opacity:1; 
 }
 
@@ -66,4 +83,4 @@ ul{
 
 
 
-// shitf+alt+8 = curly bracket 
+// shitf+alt+8 = curly bracket
