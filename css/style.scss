@@ -4,7 +4,13 @@ $client-secondary-colour: #FFF236;
 $client-tertiary-colour: #aa75ff;
 $client-complementary-colour: #000000;
 
-@use "_buttons";
+@import "buttons";
+@import "mobile";
+
+//ändra storleken på skärmbredden senare 
+@media screen and (min-width: 1180px) {
+    @import "desktop";
+}
 
 
 // shitf+alt+8 = curly bracket
