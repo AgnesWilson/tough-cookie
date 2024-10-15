@@ -14,8 +14,24 @@ button {
     }
 }
 
-input:checked + button {
-  border: 3px solid red;
+input:checked + button span {
+  position: absolute;
+  transition: all 0.4s ease-in-out;
 }
-//kollla om jag kan lägga till en "for-loop" här för att kunna
-//beta nig igenom listan med childs. 
+
+input:checked + button span:nth-child(2){
+  opacity: 0;
+}
+
+input:checked + button span:nth-child(1){
+  transform: rotate(-45deg);
+}
+
+input:checked + button span:nth-child(3){
+  transform: rotate(45deg);
+}
+
+
+
+
+// shitf+alt+8 = curly bracket 
