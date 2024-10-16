@@ -1,6 +1,18 @@
-header{
-    background-color: green;
-}
 body{
-    background-color: blue;
+    background-color: $client-secondary-colour;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    height: 4em;
+}
+
+h1{
+    color: white ;
+    margin: 0;
+    padding-top: 15px;
+    margin-left: 80px;
 }
