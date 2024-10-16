@@ -16,7 +16,11 @@ header {
     width: auto;
 
     h1 {
-    margin: 0;
+        margin: 0;
+        word-break: break-all;
+        width: 1em;
+        align-self: center;
+        margin: auto;
     }
 }
 
