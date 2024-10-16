@@ -1,18 +1,21 @@
 body{
     background-color: $client-secondary-colour;
-    margin: 0;
-    padding: 0;
 }
 
 header{
     background-color: black;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100vw;
     height: 4em;
-}
+        h1{
+            color: white ;
+            margin: 0;
+            padding-top: 15px;
+             margin-left: 80px;
+        }
+    }
 
-h1{
-    color: white ;
-    margin: 0;
-    padding-top: 15px;
-    margin-left: 80px;
+h2{
+    margin-top: 1000px;
 }
