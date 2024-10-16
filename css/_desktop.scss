@@ -9,20 +9,21 @@ main {
 }
 
 header {
+    position: relative;
     grid-column: 1;
     height: 100vh;
     flex-direction: column;
     width: auto;
 
     h1 {
-    left: 0;
+    margin: 0;
     }
 }
 
 .page1 {
     grid-column: span 11;
     min-height: 100vh;
-    
+
     .top, .bottom {
         display: grid;
         gap: 16px;
