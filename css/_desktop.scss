@@ -6,7 +6,7 @@ main {
 }
 
 header {
-    position: relative;
+    position: sticky;
     grid-column: 1;
     height: 100vh;
     flex-direction: column;
