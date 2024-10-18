@@ -9,7 +9,7 @@ $client-font-family-body-text: "Roboto Condensed", sans-serif;
 
 @function pxToEm($px) {
     @return ($px/16) * 1rem;
-  }
+}
 
 @import "buttons";
 @import "mobile";

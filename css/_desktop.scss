@@ -9,7 +9,6 @@ header {
     height: 100vh;
     width: auto;
 
-
     h1 {
         word-break: break-all;
         width: 1em;
@@ -17,15 +16,19 @@ header {
         font-size: 2vw; // justera vid behov i teblet-version
         line-height: 1.5;
 
-        .cookie { //Cookie i tough cookie - i headern
+        .cookie {
+            //Cookie i tough cookie - i headern
             display: block;
             padding-top: 1em;
         }
     }
-}//grid-ändringar 
+}
+
+//grid-ändringar 
 .page1 {
 
-    .top, .bottom {
+    .top,
+    .bottom {
         gap: 16px;
     }
 
@@ -33,6 +36,7 @@ header {
         .page-title {
             grid-column: span 4;
         }
+
         .text {
             grid-column: span 7;
         }
@@ -42,6 +46,7 @@ header {
         .image {
             grid-column: span 5;
         }
+
         .text {
             grid-column: span 6;
         }
