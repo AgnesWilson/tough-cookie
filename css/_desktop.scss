@@ -6,17 +6,15 @@ main {
 
 header {
     position: sticky;
-    grid-column: 1;
     height: 100vh;
-    flex-direction: column;
     width: auto;
 
+
     h1 {
-        margin: 0;
         word-break: break-all;
         width: 1em;
-        align-self: center;
         margin: auto;
+        font-size: 2vw; // justera vid behov i teblet-version
         line-height: 1.5;
 
         .cookie { //Cookie i tough cookie - i headern
