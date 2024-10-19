@@ -4,6 +4,8 @@
 TO DO:
 --> Anpssa förstasidan till desktop. + lägg till pil vid salladshuvud 
 --> Se om jag kan nestla gridet i desktop version (efter att jag styrt upp desktop design)
+--> Kolla på de gula marginalerna som dök upp efter den senaste comitten... 
+    tydligast via länken på github-hemsidan (ej desktop)
 
 ATT SE ÖVER:
 --> se till att hammburgarmeny ligger snyggt i nav
