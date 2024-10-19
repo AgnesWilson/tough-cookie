@@ -1,5 +1,6 @@
 body {
     background-color: $client-secondary-colour;
+    font-family: $client-font-family-hedings;
 }
 
 header {
@@ -13,7 +14,6 @@ header {
 
     h1 {
         color: white;
-        font-family: $client-font-family-hedings;
         text-transform: uppercase;
         margin: 0;
         font-size: 5vw;
@@ -23,7 +23,7 @@ header {
 }
 
 //GRID
-.page1 {
+.page-one {
     grid-column: span 11;
     min-height: 100vh;
 
@@ -34,35 +34,44 @@ header {
         grid-template-columns: repeat(11, 1fr)
     }
 
-    .top {
-        .page-title {
-            grid-column: span 11;
-        }
-
-        .text-one {
+    .top, .bottom {
+        .page-title, 
+        .text-one, 
+        .image,
+        .text {
             grid-column: span 11;
         }
     }
 
-    .bottom {
-        .image {
-            grid-column: span 11;
+.top {
+    margin: 0;
+    background-color: black;
+    padding-top: 80px;
+
+    .page-title {
+        text-transform: uppercase;
+
+        .drizzle {
+        color: $client-tertiary-colour;
         }
 
-        .text {
-            grid-column: span 11;
+        .tahini {
+        color: $client-primary-colour;
+        }
+
+        .chickpeas {
+        color: $client-secondary-colour;
         }
     }
 }
 
 //styling grön text sida 1 
 .text-one {
-    font-family: $client-font-family-hedings;
     font-size: 4vw;
     color: $client-primary-colour;
     padding: 20px;
     background-color: black;
-    padding-top: 80px;
+    padding-top: 20px;
     margin: 0;
 }
 //styling salladsbild
@@ -70,4 +79,5 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
 }
