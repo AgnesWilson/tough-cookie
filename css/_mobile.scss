@@ -15,8 +15,7 @@ header {
     h1 {
         color: white;
         text-transform: uppercase;
-        margin: 0;
-        font-size: 5vw;
+        font-size: 6vw;
         margin-left: 80px;
         letter-spacing: 0.5em;
     }
@@ -44,23 +43,33 @@ header {
     }
 
 .top {
-    margin: 0;
     background-color: black;
     padding-top: 80px;
 
     .page-title {
         text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         .drizzle {
         color: $client-tertiary-colour;
+        font-size: 40px;
+        margin-right: -70px;
+
         }
 
         .tahini {
         color: $client-primary-colour;
+        font-size: 80px;
+        line-height: 0.5;
+        z-index: 1;
         }
 
         .chickpeas {
         color: $client-secondary-colour;
+        font-size: 30px;
+        margin-right: 70px;
         }
     }
 }
