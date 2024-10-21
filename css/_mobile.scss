@@ -26,21 +26,21 @@ header {
 .page-one {
     grid-column: span 11;
     min-height: 100vh;
+    margin: 0;
 
     .top,
     .bottom {
         display: grid;
-        gap: 5px;
         grid-template-columns: repeat(11, 1fr)
     }
 
     .top,
     .bottom {
-
         .page-title,
         .text-one,
         .image,
-        .text-two {
+        .text-two,
+        .explore-menu {
             grid-column: span 11;
         }
     }
@@ -96,6 +96,7 @@ header {
         margin: 0;
     }
 
+    //styling text med vit bakgrund och lila text
     .text-two {
         background-color: rgb(255, 255, 255);
         font-size: 4vw;
@@ -103,5 +104,15 @@ header {
         padding: 20px;
         margin-top: 5px;
         margin-bottom: 0;
+        padding-bottom: 5px;
+    }
+
+    .explore-menu {
+        font-size: 5vw;
+        text-transform: uppercase;
+        background-color: rgb(255, 255, 255);
+        padding-top: 0px;
+        padding-left: 20px;
+        margin-top: 0;
     }
 }
