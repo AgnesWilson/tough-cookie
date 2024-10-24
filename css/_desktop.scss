@@ -25,7 +25,7 @@ header {
 }
 
 //grid-ändringar 
-.page1 {
+.page-one {
 
     .top,
     .bottom {
@@ -43,13 +43,19 @@ header {
     }
 
     .bottom {
+
         .image {
             grid-column: span 5;
         }
 
-        .text-two {
-            grid-column: span 6;
+        .text-two, {
+            grid-column: span 10;
+        }
+
+        .explore-menu {
+            grid-column: 6 / span 11;
         }
     }
 }
 //Kolla om gridkomponenetrna kan nestlas ihop
+

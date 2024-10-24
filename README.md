@@ -8,7 +8,7 @@ TO DO:
 
 
 ATT SE ÖVER:
---> se till att hammburgarmeny ligger snyggt i nav
+--> se till att hammburgarmeny ligger snyggt i nav i desktop
 --> Lägg till tablet - version
 --> Se till att den lila sidan får en nav
 --> lägg till info i metataggar  
