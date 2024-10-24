@@ -24,25 +24,27 @@ header {
     }
 }
 
-//grid-ändringar 
+//HÄR JOBBAR JAG NU
 .page-one {
 
-    .top,
-    .bottom {
-        gap: 16px;
-    }
-
     .top {
+        padding-top: 20px;
+        
         .page-title {
             grid-column: span 4;
+            justify-content: center;
         }
 
         .text-one {
             grid-column: span 7;
+            padding-bottom: 30px;
+            font-size: 3vw;
+            padding-top: 0;
         }
     }
 
     .bottom {
+        gap: 16px;
 
         .image {
             grid-column: span 5;
@@ -60,146 +62,3 @@ header {
 
 //Kolla om gridkomponenetrna kan nestlas ihop
 
-//INKLISTRAT FRÅN MOBIL
-
-//Tahini - drizzle - chickpeas
-.top {
-    padding-top: 20px;
-    background-color: blue;
-
-    .page-title {
-        text-transform: uppercase;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .drizzle {
-            color: $client-tertiary-colour;
-            font-size: 40px;
-            margin-right: -70px;
-        }
-
-        .tahini {
-            color: $client-primary-colour;
-            font-size: 80px;
-            line-height: 0.5;
-            z-index: 1;
-        }
-
-        .chickpeas {
-            color: $client-secondary-colour;
-            font-size: 30px;
-            margin-right: 70px;
-        }
-    }
-}
-
-//styling grön text sida 1 
-.text-one {
-    font-size: 4vw;
-    color: $client-primary-colour;
-    padding: 20px;
-    background-color: black;
-    padding-top: 20px;
-    margin: 0;
-}
-
-//styling salladsbild
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-
-//styling text med vit bakgrund och lila text
-.text-two {
-    background-color: rgb(255, 255, 255);
-    font-size: 4vw;
-    color: $client-tertiary-colour;
-    padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    padding-bottom: 5px;
-}
-
-.explore-menu {
-    font-size: 5vw;
-    text-transform: uppercase;
-    background-color: rgb(255, 255, 255);
-    padding-top: 0px;
-    padding-left: 20px;
-    margin-top: 0;
-}
-
-   //Tahini - drizzle - chickpeas
-   .top {
-    background-color: rgb(0, 0, 0);
-    padding-top: 80px;
-
-    .page-title {
-        text-transform: uppercase;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .drizzle {
-            color: $client-tertiary-colour;
-            font-size: 40px;
-            margin-right: -70px;
-        }
-
-        .tahini {
-            color: $client-primary-colour;
-            font-size: 80px;
-            line-height: 0.5;
-            z-index: 1;
-        }
-
-        .chickpeas {
-            color: $client-secondary-colour;
-            font-size: 30px;
-            margin-right: 70px;
-        }
-    }
-}
-
-//styling grön text sida 1 
-.text-one {
-    font-size: 4vw;
-    color: $client-primary-colour;
-    padding: 20px;
-    background-color: black;
-    padding-top: 20px;
-    margin: 0;
-}
-
-//styling salladsbild
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-
-//styling text med vit bakgrund och lila text
-.text-two {
-    background-color: rgb(255, 255, 255);
-    font-size: 4vw;
-    color: $client-tertiary-colour;
-    padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    padding-bottom: 5px;
-}
-
-.explore-menu {
-    font-size: 5vw;
-    text-transform: uppercase;
-    background-color: rgb(255, 255, 255);
-    padding-top: 0px;
-    padding-left: 20px;
-    margin-top: 0;
-}
