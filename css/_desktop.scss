@@ -50,12 +50,18 @@ header {
             grid-column: span 5;
         }
 
-        .text-two {
-        grid-column: span 10;
-        }
+        .menu-info {
+            grid-column: span 6;
+            padding-top: 0;
+            margin-top: 0;
 
-        .explore-menu {
-        grid-column: 6 / span 11;
+            .text-two {
+                font-size: 3vw;
+            }
+
+            .explore-menu {
+                font-size: 3vw;
+            }
         }
     }
 }

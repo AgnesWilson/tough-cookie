@@ -7,7 +7,7 @@ $client-complementary-colour: #000000;
 $client-font-family-hedings: "Jockey One", sans-serif;
 $client-font-family-body-text: "Roboto Condensed", sans-serif;
 
-@function pxToEm($px) {
+@function pxToRem($px) {
     @return ($px/16) * 1rem;
 }
 

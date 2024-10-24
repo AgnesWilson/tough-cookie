@@ -39,8 +39,7 @@ header {
         .page-title,
         .text-one,
         .image,
-        .text-two,
-        .explore-menu {
+        .menu-info {
             grid-column: span 11;
         }
     }
@@ -97,22 +96,22 @@ header {
     }
 
     //styling text med vit bakgrund och lila text
-    .text-two {
+    .menu-info {
         background-color: rgb(255, 255, 255);
         font-size: 4vw;
-        color: $client-tertiary-colour;
-        padding: 20px;
-        margin-top: 5px;
-        margin-bottom: 0;
-        padding-bottom: 5px;
-    }
+        padding: 10px;
+        padding-top: 0;
 
-    .explore-menu {
-        font-size: 5vw;
-        text-transform: uppercase;
-        background-color: rgb(255, 255, 255);
-        padding-top: 0px;
-        padding-left: 20px;
-        margin-top: 0;
+        .text-two {
+            color: $client-tertiary-colour;
+            margin-bottom: 0;
+            padding-bottom: 5px;
+        }
+
+        .explore-menu {
+            font-size: 5vw;
+            text-transform: uppercase;
+            background-color: rgb(255, 255, 255);
+        }
     }
 }
