@@ -25,8 +25,9 @@ header {
     }
 }
 
-//HÄR JOBBAR JAG NU
+//Styling page one 
 .page-one {
+    padding-right: 16px;
 
     .top {
         padding-top: 20px;
@@ -34,6 +35,18 @@ header {
         .page-title {
             grid-column: span 4;
             justify-content: center;
+
+                .drizzle {
+                    font-size: 60px;
+                }
+
+                .tahini {
+                    font-size: 105px;
+                }
+
+                .chickpeas {
+                    font-size: 40px;
+                }
         }
 
         .text-one {
@@ -68,6 +81,3 @@ header {
         }
     }
 }
-
-//Kolla om gridkomponenetrna kan nestlas ihop
-
