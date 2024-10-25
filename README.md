@@ -2,7 +2,7 @@
 
 
 TO DO:
---> Anpssa förstasidan till desktop. 
+--> Få till en gul border på höger sida i desktop-mode 
 --> Lägg till pil vid salladshuvud + vid explore menu
 --> Se om jag kan nestla gridet i desktop version (efter att jag styrt upp desktop design)
 
