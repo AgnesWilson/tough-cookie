@@ -96,12 +96,12 @@ header {
     }
 
     .dish-desc {
-        grid-column: span 7;
+        grid-column: span 4 / 10;
         text-align: left;
     }
 
     .dish-price {
-        grid-column: span 1;
+        grid-column: span 10 / 12;
         text-align: right;
     }
 
