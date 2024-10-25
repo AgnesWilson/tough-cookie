@@ -81,3 +81,28 @@ header {
         }
     }
 }
+
+.page-two {
+
+    li {
+        display: grid;
+        grid-template-columns: repeat(11,1fr);
+    }
+
+    .dish-name {
+        grid-column: span 2 / 4;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .dish-desc {
+        grid-column: span 7;
+        text-align: left;
+    }
+
+    .dish-price {
+        grid-column: span 1;
+        text-align: right;
+    }
+
+}
