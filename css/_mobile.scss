@@ -23,7 +23,8 @@ header {
 }
 
 //GRID
-.page-one {
+.page-one, 
+.page-two {
     grid-column: span 11;
     min-height: 100vh;
     margin: 0;
@@ -114,4 +115,30 @@ header {
             background-color: rgb(255, 255, 255);
         }
     }
+}
+
+.page-two {
+
+    li {
+        display: grid;
+        grid-template-columns: repeat(11,1fr);
+    }
+
+    .dish-name {
+        grid-column: span 4;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .dish-desc {
+        grid-column: span 6;
+        text-align: left;
+    }
+
+    .dish-price {
+        grid-column: span 1;
+        text-align: right;
+    }
+    
+
 }
