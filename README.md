@@ -2,15 +2,21 @@
 
 
 TO DO:
---> Få till en gul border på höger sida i desktop-mode 
---> Lägg till pil vid salladshuvud + vid explore menu
+[] Lägg till pil vid salladshuvud + vid explore menu
+[] Gör sida 3
+[] Gör New, vegan... skyltar 
+[] Justera priser på maträtter 
+[] Lägg till alt-text på bilder 
 
 
 ATT SE ÖVER:
---> se till att hammburgarmeny ligger snyggt i nav i desktop
+--> Se till att hammburgarmeny ligger snyggt i nav i desktop
 --> Lägg till tablet - version
 --> Se till att den lila sidan får en nav
---> lägg till info i metataggar  
---> lägg till sans serif i typsnitt & kolla vad det andra typsnittet är till för. 
+--> Lägg till info i metataggar  
+--> Lägg till sans serif i typsnitt
+--> Justera import av typsnitt 
 
+
+Massa bra grejer om pilar och typsnitt för ikoner under dagens lektion med Jenny (28/10)
 transform: rotate(90deg) <-- använd till pilen på salladshuvudet
