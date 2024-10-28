@@ -1,13 +1,13 @@
 main {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     gap: 16px;
 }
 
 header {
-    position: sticky;
+    position: fixed;
     height: 100vh;
-    width: auto;
+    width: 7.6vw;
     padding-top: 2vw;
 
     h1 {
@@ -27,7 +27,8 @@ header {
 
 //Styling page one 
 .page-one {
-    padding-right: 16px;
+    grid-column: 2 / span 12;
+    margin-right: 16px;
 
     .top {
         padding-top: 20px;
