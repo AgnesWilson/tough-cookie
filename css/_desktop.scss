@@ -84,24 +84,33 @@ header {
 
 .page-two {
 
+    .food-menu {
+        height: 0;
+    }
+
     li {
         display: grid;
-        grid-template-columns: repeat(11,1fr);
+        grid-template-columns: repeat(11, 1fr); 
+        grid-template-areas: "dish-name dish-desc dish-price";
+        align-items: center;
     }
 
     .dish-name {
-        grid-column: span 2 / 4;
+        grid-area: dish-name;
+        grid-column: span 3 ;
         text-align: left;
         padding-left: 10px;
     }
 
     .dish-desc {
-        grid-column: span 4 / 10;
+        grid-area: dish-desc;
+        grid-column: span 6 / 11;
         text-align: left;
     }
 
     .dish-price {
-        grid-column: span 10 / 12;
+        grid-area: dish-price;
+        grid-column: span 11;
         text-align: right;
     }
 
