@@ -118,11 +118,6 @@ header {
 .page-two {
     grid-column: 2 / span 11;
 
-    .images {
-        display: grid;
-        grid-template-columns: repeat(11,1fr);
-    }
-
     ul {
         background-color:$client-secondary-colour;
         gap: 6px;
