@@ -12,3 +12,5 @@ ATT SE ÖVER:
 --> Se till att den lila sidan får en nav
 --> lägg till info i metataggar  
 --> lägg till sans serif i typsnitt & kolla vad det andra typsnittet är till för. 
+
+transform: rotate(90deg) <-- använd till pilen på salladshuvudet

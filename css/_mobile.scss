@@ -23,10 +23,8 @@ header {
 }
 
 //GRID
-.page-one, 
-.page-two {
+.page-one {
     grid-column: span 11;
-    min-height: 100vh;
     margin: 0;
 
     .top,
@@ -118,6 +116,12 @@ header {
 }
 
 .page-two {
+    grid-column: 2 / span 11;
+
+    .images {
+        display: grid;
+        grid-template-columns: repeat(11,1fr);
+    }
 
     ul {
         background-color:$client-secondary-colour;
@@ -155,5 +159,4 @@ header {
         font-size: 0.9em;
     }
     
-
 }
