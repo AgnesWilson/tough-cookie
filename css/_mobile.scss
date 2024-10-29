@@ -265,3 +265,46 @@ header {
     }
 
 }
+.cookie-banner {
+    background-color: $client-tertiary-colour;
+    padding-top: 2em;
+    padding-bottom: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .accept-text {
+        flex: 1;
+        margin: 0;
+        margin-left: 8%;
+        margin-top: 0.5%;
+        font-family: $client-font-family-body-text;
+        color: #fff;
+    }
+
+    .cookie-buttons {
+        flex: 1;
+
+        .accept-button, 
+        .decline-button {
+            padding-inline: 10%;
+
+            text-transform: uppercase;
+            font-size: 1rem;
+
+            box-sizing: border-box;
+            border-radius: 10px;
+            border: none;
+        }
+        .decline-button {
+            background-color: $client-secondary-colour;
+        }
+
+        .accept-button {
+            margin-left: 5%;
+            background-color: $client-primary-colour;
+        }
+    }
+
+}

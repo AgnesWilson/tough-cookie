@@ -1,5 +1,5 @@
 // Burgarmeny
-button {
+.burger-button {
     width: 35px;
     height: 35px;
     background: transparent;
@@ -30,20 +30,20 @@ button {
     opacity: 0;
   }
   
-  input:checked+.menu button span {
+  input:checked+.menu .burger-button span {
     position: absolute;
     transition: all 0.4s ease-in-out;
   }
   
-  input:checked+.menu button span:nth-child(2) {
+  input:checked+.menu .burger-button span:nth-child(2) {
     opacity: 0;
   }
   
-  input:checked+.menu button span:nth-child(1) {
+  input:checked+.menu .burger-button span:nth-child(1) {
     transform: rotate(-45deg);
   }
   
-  input:checked+.menu button span:nth-child(3) {
+  input:checked+.menu .burger-button span:nth-child(3) {
     transform: rotate(45deg);
   }
   

@@ -191,3 +191,18 @@ header {
         padding-left: 3em;
     }
 }
+
+.cookie-banner {
+    .accept-text {
+        margin-left: 20%;
+    }
+
+    .cookie-buttons {
+        flex: 1;
+
+        .accept-button, 
+        .decline-button {
+                font-size: 1.5rem;
+        }
+    }
+}
