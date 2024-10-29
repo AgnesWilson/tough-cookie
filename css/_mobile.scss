@@ -1,3 +1,4 @@
+
 body {
     background-color: $client-secondary-colour;
     font-family: $client-font-family-hedings;
@@ -123,32 +124,29 @@ header {
     img {
         object-fit: cover;
         width: 100%;
-        height: 70%;
+        height: 100%;
     }
 
     .images-page-two {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        height: 100px;
+        display: flex;
+        justify-content: space-between;
         gap: 8px;
+    }
 
-        .image-two {
-            grid-column: span 2;
-        }
+    .image-two, 
+    .image-three {
+        flex: 1;
+        height: 30em;
+    }
 
-        .image-three {
-            grid-column: span 2;
-        }
-
-        .image-four {
-            visibility: hidden;
-        }
+    .image-four {
+        display: none;
     }
 
     ul {
         background-color: $client-secondary-colour;
         gap: 6px;
-        padding-top: 70px; //DETTA BÖR JUSTERAS I EN ANNAN VERSION
+        padding-top: 10px;
 
         li {
             display: grid;
@@ -179,6 +177,57 @@ header {
         grid-column: span 10;
         text-align: left;
         font-size: 0.9em;
+    }
+
+}
+
+
+.page-three {
+    background-color: $client-primary-colour;
+    grid-column: span 11;
+    border-left: 8px solid #fff;
+    border-right: 8px solid #fff;
+    padding-top: 16px;
+
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-column: 2 / span 10;
+    gap: 16px;
+
+    fieldset {
+        border: none;
+    }
+
+    .book-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto; 
+    }
+
+    label {
+        grid-column: 2 / span 2;
+    }
+    
+    span {
+        grid-column: 2 / span 2;
+    }
+
+    input,
+    textarea {
+        grid-column: 2 / span 3;
+
+        position: static; 
+        opacity: 1; 
+        width: 200px; 
+        height: 30px;
+        margin-bottom: 10px;
+
+        box-sizing: border-box;
+        border-radius: 15px;
+         border: none;
     }
 
 }
