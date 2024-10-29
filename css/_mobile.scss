@@ -136,7 +136,7 @@ header {
     .image-two, 
     .image-three {
         flex: 1;
-        height: 30em;
+        height: 15em;
     }
 
     .image-four {
@@ -147,6 +147,7 @@ header {
         background-color: $client-secondary-colour;
         gap: 6px;
         padding-top: 10px;
+        padding-bottom: 16px;
 
         li {
             display: grid;
@@ -181,53 +182,76 @@ header {
 
 }
 
-
 .page-three {
+    font-family: $client-font-family-hedings;
     background-color: $client-primary-colour;
-    grid-column: span 11;
     border-left: 8px solid #fff;
     border-right: 8px solid #fff;
-    padding-top: 16px;
+    padding-top: 18px;
 
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-column: 2 / span 10;
     gap: 16px;
 
-    fieldset {
-        border: none;
-    }
-
     .book-table {
+        text-transform: uppercase;
+        font-size: 2em;
+
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
-        margin: 0 auto; 
+        padding-bottom: 16px;
     }
 
-    label {
-        grid-column: 2 / span 2;
+    .contact-form {
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        fieldset {
+            border: none;
+        }
+
+        label {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        span {
+            flex: 1;
+            padding-left: 0em;
+        }
+
+        input,
+        textarea {
+            flex: 1;
+            padding-right: 8em;
+
+            position: static; 
+            opacity: 1; 
+            height: 30px;
+            margin-bottom: 10px;
+
+            box-sizing: border-box;
+            border-radius: 15px;
+            border: none;
+        }
     }
-    
-    span {
-        grid-column: 2 / span 2;
-    }
 
-    input,
-    textarea {
-        grid-column: 2 / span 3;
+    .buttons-form {
+        padding-top: 10px;
+        
 
-        position: static; 
-        opacity: 1; 
-        width: 200px; 
-        height: 30px;
-        margin-bottom: 10px;
+        .cancel-button {
+            background-color: $client-tertiary-colour;
+            text-transform: uppercase;
+        }
 
-        box-sizing: border-box;
-        border-radius: 15px;
-         border: none;
+        .submit-button {
+            background-color: $client-secondary-colour;
+            text-transform: uppercase;
+        }
     }
 
 }

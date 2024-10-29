@@ -107,30 +107,53 @@ header {
         }
     }
 
-    li {
-        display: grid;
-        grid-template-columns: repeat(11, 1fr);
-        grid-template-areas: "dish-name dish-desc dish-price";
-        align-items: center;
+    ul {
+        padding-bottom: 0;
+
+        li {
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-template-areas: "dish-name dish-desc dish-price";
+            align-items: center;
+
+            .dish-name {
+                grid-area: dish-name;
+                grid-column: span 3;
+                text-align: left;
+                padding-left: 10px;
+            }
+
+            .dish-desc {
+                grid-area: dish-desc;
+                grid-column: span 6 / 11;
+                text-align: left;
+            }
+
+            .dish-price {
+                grid-area: dish-price;
+                grid-column: span 11;
+                text-align: right;
+            }
+        }
     }
 
-    .dish-name {
-        grid-area: dish-name;
-        grid-column: span 3;
-        text-align: left;
-        padding-left: 10px;
+}
+
+.page-three {
+    grid-column: 2 / span 12;
+    border-left: 16px solid #fff;
+    border-right: 0; 
+    margin-left: -15px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+
+    .book-table {
+        font-size: 2em;
+        align-items: baseline;
+        padding-bottom: 16px;
     }
 
-    .dish-desc {
-        grid-area: dish-desc;
-        grid-column: span 6 / 11;
-        text-align: left;
+    .contact-form {
+        align-items: baseline;
     }
-
-    .dish-price {
-        grid-area: dish-price;
-        grid-column: span 11;
-        text-align: right;
-    }
-
 }
