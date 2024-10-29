@@ -144,8 +144,11 @@ header {
     border-left: 16px solid #fff;
     border-right: 0; 
     margin-left: -15px;
-    padding-top: 16px;
-    padding-bottom: 30px;
+    padding-top: 5em;
+    padding-bottom: 10em;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 
     .book-table {
         font-size: 2em;
@@ -154,6 +157,37 @@ header {
     }
 
     .contact-form {
-        align-items: baseline;
+        grid-column: 1 / span 4;
+        padding-top: 3em;
+
+        span {
+            font-size: 1.23em;
+        }
+
+        input,
+        textarea {
+            margin-bottom: 20px;
+            margin-left: 50px;
+        }
+    }
+
+    .buttons-form {
+        display: flex;
+        align-self: center;
+
+        .cancel-button {
+            margin-left: 0;
+        }
+
+        .submit-button {
+            margin-left: 3%;
+        }
+
+    }
+
+    .image-five {
+        grid-column: 5 / span 7;
+        padding-top: 10px;
+        padding-left: 3em;
     }
 }
