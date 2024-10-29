@@ -19,4 +19,3 @@ ATT SE ÖVER:
 
 
 Massa bra grejer om pilar och typsnitt för ikoner under dagens lektion med Jenny (28/10)
-transform: rotate(90deg) <-- använd till pilen på salladshuvudet
