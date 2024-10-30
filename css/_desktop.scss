@@ -93,17 +93,20 @@ header {
         .image-two {
             grid-column: span 3;
             height: 30em;
+            width: 30%;
         }
 
         .image-three {
             grid-column: span 4;
             height: 30em;
+            width: 30%;
         }
 
         .image-four {
             display: block;
             grid-column: span 4;
             height: 30em;
+            width: 30%;
         }
     }
 
@@ -168,12 +171,11 @@ header {
         textarea {
             margin-bottom: 20px;
             margin-left: 50px;
+            width: 20%;
         }
     }
 
     .buttons-form {
-        display: flex;
-        align-self: center;
 
         .cancel-button {
             margin-left: 0;
