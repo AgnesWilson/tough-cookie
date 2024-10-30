@@ -121,21 +121,53 @@ header {
 
             .dish-name {
                 grid-area: dish-name;
-                grid-column: span 3;
+                grid-column: span 2;
                 text-align: left;
                 padding-left: 10px;
             }
 
-            .dish-desc {
+            .artichoke {
+                grid-column: 1 / span 1;
+                padding-right: 0;
+            }
+            
+            .halloumi, 
+            .moutabbal {
+                grid-column: 1 / span 2;
+            }
+
+            .dish-desc,
+            .dish-desc-halloumi {
                 grid-area: dish-desc;
-                grid-column: span 6 / 11;
+                grid-column: 5 / span 4;
                 text-align: left;
+            }
+
+            .dish-desc-halloumi {
+                grid-column: 4 / span 3;
             }
 
             .dish-price {
                 grid-area: dish-price;
                 grid-column: span 11;
                 text-align: right;
+            }
+
+            .vegan {
+                max-width: 40%;
+            }
+
+            .new {
+                grid-column: 3 / span 1;
+                max-width: 25%;
+                padding-top: 0.2em;
+                justify-self: start;
+            }
+
+            .popular {
+                grid-column: 2 / span 1;
+                max-width: 55%;
+                justify-self: start;
             }
         }
     }
