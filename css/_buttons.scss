@@ -45,6 +45,16 @@
   input:checked+.menu .burger-button span:nth-child(3) {
     transform: rotate(45deg);
   }
+
+  input:hover + .menu button {
+    :nth-child(1),
+    :nth-child(3) {
+      transform:translateX(5px);
+    }
+    :nth-child(2) {
+      transform:translateX(-5px);
+    }
+  }
   
   //Sidan som dyker upp när man klickar på hamburgarmeenyn
   nav {
