@@ -5,9 +5,9 @@ KLART:
 [x] Lägg till pil vid salladshuvud 
 [x] Gör sida 3
 [x] Lägg till pil vid explore menu
+[x] Animera pil vid salladshuvud 
 
 TO DO:
-[] Animera pil vid salladshuvud 
 [] Animera hoovereffekt vid hamburgarmeny
 [] Gör New, vegan... skyltar 
 [] Justera priser på maträtter 
