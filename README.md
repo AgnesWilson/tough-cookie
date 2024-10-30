@@ -13,14 +13,24 @@ KLART:
 
 TO DO:
 [] Lägg till alt-text på bilder 
+[] Fixa labels (new, vegan, popular)
+[] Se till att info och liknande är på engelska 
+[] Lägg till info i metataggar (kolla i chatten från torsdagen angående kalle anka SEO)
+[] Justera import av typsnitt
+[] Se över semantisk html
+[] Tillgänglighetsanalys (lighthose)
+[] Screenshota hemsida i olika lägen i olika browsers (Chrome, Edge, Firefox, Safari)
+    Lägg skärmdumparna i en mapp som heter screenshots i ditt repo, och döp respektive till: ex edge-tablet.jpg
+[] Gå igenom "vanliga misstag"
+[] Läs Jennys kommentarer
+[] Validera CSS
+[] Validera html
+    Ta en skärmdump på validerad kod, och lägg in i repot i en mapp som heter validering.
 
-
-ATT SE ÖVER:
---> Se till att hammburgarmeny ligger snyggt i nav i desktop
+ATT SE ÖVER OM TID FINNS:
 --> Lägg till tablet - version
 --> Se till att den lila sidan får en nav
---> Lägg till info i metataggar  
---> Justera import av typsnitt 
+--> Gå igenom desktop + mobil och se om jag kan nestla och generellt snygga upp koden lite 
 
 
 Massa bra grejer om pilar och typsnitt för ikoner under dagens lektion med Jenny (28/10)
