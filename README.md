@@ -6,13 +6,13 @@ KLART:
 [x] Gör sida 3
 [x] Lägg till pil vid explore menu
 [x] Animera pil vid salladshuvud 
+[x] Animera hoovereffekt vid hamburgarmeny
+[x] Gör New, vegan... skyltar 
+[x] Justera priser på maträtter 
+[x] Justera storleken på drizzle på desktop så den ligger vid H-et på Tahini
 
 TO DO:
-[] Animera hoovereffekt vid hamburgarmeny
-[] Gör New, vegan... skyltar 
-[] Justera priser på maträtter 
 [] Lägg till alt-text på bilder 
-[] Justera storleken på drizzle på desktop så den ligger vid H-et på Tahini
 
 
 ATT SE ÖVER:

@@ -1,86 +1,90 @@
 // Burgarmeny
 .burger-button {
-    width: 35px;
-    height: 35px;
-    background: transparent;
-    border: 0;
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    z-index: 2;
-    pointer-events: none;
-  
-    span {
-      display: block;
-      width: 25px;
-      height: 3px;
-      background-color: $client-secondary-colour;
-      border-radius: 6px;
-      margin-bottom: 4px;      
-    }
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border: 0;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
+  pointer-events: none;
+
+  span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: $client-secondary-colour;
+    border-radius: 6px;
+    margin-bottom: 4px;
+  }
 }
-  input {
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    z-index: 1;
-    width: 35px;
-    height: 35px;
-    opacity: 0;
-  }
-  
-  input:checked+.menu .burger-button span {
-    position: absolute;
-    transition: all 0.4s ease-in-out;
-  }
-  
-  input:checked+.menu .burger-button span:nth-child(2) {
-    opacity: 0;
-  }
-  
-  input:checked+.menu .burger-button span:nth-child(1) {
-    transform: rotate(-45deg);
-  }
-  
-  input:checked+.menu .burger-button span:nth-child(3) {
-    transform: rotate(45deg);
+
+input {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+}
+
+input:checked+.menu .burger-button span {
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+}
+
+input:checked+.menu .burger-button span:nth-child(2) {
+  opacity: 0;
+}
+
+input:checked+.menu .burger-button span:nth-child(1) {
+  transform: rotate(-45deg);
+}
+
+input:checked+.menu .burger-button span:nth-child(3) {
+  transform: rotate(45deg);
+}
+
+input:hover+.menu button {
+
+  :nth-child(1),
+  :nth-child(3) {
+    transform: translateX(5px);
   }
 
-  input:hover + .menu button {
-    :nth-child(1),
-    :nth-child(3) {
-      transform:translateX(5px);
-    }
-    :nth-child(2) {
-      transform:translateX(-5px);
-    }
+  :nth-child(2) {
+    transform: translateX(-5px);
   }
-  
-  //Sidan som dyker upp när man klickar på hamburgarmeenyn
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: $client-tertiary-colour;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0;
-    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    visibility: hidden;
-  }
-  
-  input:checked+.menu nav {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-evenly;
-    text-align: center;
-  }
+}
+
+//Sidan som dyker upp när man klickar på hamburgarmeenyn
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $client-tertiary-colour;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  visibility: hidden;
+}
+
+input:checked+.menu nav {
+  visibility: visible;
+  opacity: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+}

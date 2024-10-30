@@ -8,14 +8,14 @@ header {
     position: fixed;
     height: 100vh;
     width: 7.6vw;
-    padding-top: 2vw;
+    padding-top: 2.5vw;
 
     h1 {
         word-break: break-all;
         width: 1em;
         margin: auto;
-        font-size: 3vw; // justera vid behov i teblet-version
-        line-height: 1.5;
+        font-size: 2vw; // justera vid behov i teblet-version
+        line-height: 1.8;
 
         .cookie {
             //Cookie i tough cookie - i headern
@@ -38,15 +38,17 @@ header {
             justify-content: center;
 
             .drizzle {
-                font-size: 60px;
+                font-size: 3.19em;
+                margin-right: -90px;
             }
 
             .tahini {
-                font-size: 105px;
+                font-size: 6.5em;
             }
 
             .chickpeas {
-                font-size: 40px;
+                font-size: 2.5em;
+                margin-right: 60px;
             }
         }
 
@@ -119,32 +121,25 @@ header {
             grid-template-areas: "dish-name dish-desc dish-price";
             align-items: center;
 
-            .dish-name {
+            .dish-name,
+            .halloumi,
+            .moutabbal,
+            .artichoke {
                 grid-area: dish-name;
-                grid-column: span 2;
+                grid-column: span 3;
                 text-align: left;
                 padding-left: 10px;
+                font-size: 1.5em;
             }
 
             .artichoke {
                 grid-column: 1 / span 1;
-                padding-right: 0;
-            }
-            
-            .halloumi, 
-            .moutabbal {
-                grid-column: 1 / span 2;
             }
 
-            .dish-desc,
-            .dish-desc-halloumi {
+            .dish-desc {
                 grid-area: dish-desc;
                 grid-column: 5 / span 4;
                 text-align: left;
-            }
-
-            .dish-desc-halloumi {
-                grid-column: 4 / span 3;
             }
 
             .dish-price {
@@ -161,7 +156,6 @@ header {
                 grid-column: 3 / span 1;
                 max-width: 25%;
                 padding-top: 0.2em;
-                justify-self: start;
             }
 
             .popular {
@@ -177,7 +171,7 @@ header {
 .page-three {
     grid-column: 2 / span 12;
     border-left: 16px solid #fff;
-    border-right: 0; 
+    border-right: 0;
     margin-left: -15px;
     padding-top: 5em;
     padding-bottom: 10em;
@@ -234,9 +228,9 @@ header {
     .cookie-buttons {
         flex: 1;
 
-        .accept-button, 
+        .accept-button,
         .decline-button {
-                font-size: 1.5rem;
+            font-size: 1.5rem;
         }
     }
 }
