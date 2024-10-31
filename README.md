@@ -11,16 +11,17 @@ KLART:
 [x] Justera priser på maträtter 
 [x] Justera storleken på drizzle på desktop så den ligger vid H-et på Tahini
 [x] Fixa labels (new, vegan, popular)
+[x] Se över semantisk html
+[x] Ändra textstorleken på priset på matmenyn 
+[x] Se till att info och liknande är på engelska 
 
 TO DO:
-[] Ändra textstorleken påpriset på matmenyn 
 [] Justera ev new, vegan, popular taggarnas distans 
 [] lägg till rätt storlet på style.scss på desktop mode
+
 [] Lägg till alt-text på bilder 
-[] Se till att info och liknande är på engelska 
 [] Lägg till info i metataggar (kolla i chatten från torsdagen angående kalle anka SEO)
 [] Justera import av typsnitt
-[] Se över semantisk html
 [] Tillgänglighetsanalys (lighthose)
 [] Screenshota hemsida i olika lägen i olika browsers (Chrome, Edge, Firefox, Safari)
     Lägg skärmdumparna i en mapp som heter screenshots i ditt repo, och döp respektive till: ex edge-tablet.jpg
