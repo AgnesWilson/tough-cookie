@@ -3,32 +3,33 @@
 
 KLART:
 - [x] Lägg till pil vid salladshuvud 
-[x] Gör sida 3
-[x] Lägg till pil vid explore menu
-[x] Animera pil vid salladshuvud 
-[x] Animera hoovereffekt vid hamburgarmeny
-[x] Gör New, vegan... skyltar 
-[x] Justera priser på maträtter 
-[x] Justera storleken på drizzle på desktop så den ligger vid H-et på Tahini
-[x] Fixa labels (new, vegan, popular)
-[x] Se över semantisk html
-[x] Ändra textstorleken på priset på matmenyn 
-[x] Se till att info och liknande är på engelska 
-[x] Justera import av typsnitt
-[x] Lägg till alt-text på bilder 
-[x] Lägg till info i metataggar 
+- [x] Gör sida 3
+- [x] Lägg till pil vid explore menu
+- [x] Animera pil vid salladshuvud 
+- [x] Animera hoovereffekt vid hamburgarmeny
+- [x] Gör New, vegan... skyltar 
+- [x] Justera priser på maträtter 
+- [x] Justera storleken på drizzle på desktop så den ligger vid H-et på Tahini
+- [x] Fixa labels (new, vegan, popular)
+- [x] Se över semantisk html
+- [x] Ändra textstorleken på priset på matmenyn 
+- [x] Se till att info och liknande är på engelska 
+- [x] Justera import av typsnitt
+- [x] Lägg till alt-text på bilder 
+- [x] Lägg till info i metataggar 
 
 TO DO:
-[] Justera ev new, vegan, popular taggarnas distans 
-[] lägg till rätt storlet på style.scss på desktop mode
+- [] Justera ev new, vegan, popular taggarnas distans 
+- [] lägg till rätt storlet på style.scss på desktop mode
 
-[] Lägg till länkar på menyn (home book table osv.)
-[] Tillgänglighetsanalys (lighthose)
-[] Screenshota hemsida i olika lägen i olika browsers **
-[] Gå igenom "vanliga misstag"
-[] Läs Jennys kommentarer
-[] Validera CSS **
-[] Validera html**
+- [] Justera font och font-size på lila sida 
+- [] Lägg till länkar på menyn (home book table osv.)
+- [] Tillgänglighetsanalys (lighthose)
+- [] Screenshota hemsida i olika lägen i olika browsers **
+- [] Gå igenom "vanliga misstag"
+- [] Läs Jennys kommentarer
+- [] Validera CSS **
+- [] Validera html**
 
 * 1 (Chrome, Edge, Firefox, Safari)
     Lägg skärmdumparna i en mapp som heter screenshots i ditt repo, och döp respektive till: ex edge-tablet.jpg
