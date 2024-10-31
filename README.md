@@ -24,14 +24,12 @@ KLART:
 - [x] Läs Jennys kommentarer
 - [x] lägg till rätt storlet på style.scss på desktop mode
 - [x] Validera CSS **
+- [x] Validera html**
 
 TO DO:
-- [] Justera ev new, vegan, popular taggarnas distans 
-
-
 - [] Tillgänglighetsanalys (lighthose)
 - [] Screenshota hemsida i olika lägen i olika browsers **
-- [] Validera html**
+
 
 Radbryt framför <img> så blir det lättare att skumma i koden.
 
