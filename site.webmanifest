@@ -1,12 +1,12 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Tough Cookie",
+  "name": "Tough Cookie restaurant",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
-  "start_url": "/?utm_source=homescreen",
-  "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "start_url": "https://medieinstitutet.github.io/fed24d-html-css-kundprojekt-AgnesWilson/",
+  "background_color": "#FFF236",
+  "theme_color": "#00FF38"
 }
