@@ -75,7 +75,7 @@
     </header>
 
     <!-- Sida 1 -->
-    <div class="page-one">
+    <div class="page-one">  <!-- section istället för div  1 -->
 
       <section class="top">
 
@@ -95,6 +95,7 @@
       <section class="bottom">
 
         <div class="image">
+
           <img src="assets/photos/sallad.jpg"
             alt="En stor bild på ett salladshuvud fotat uppifrån. 
                 Bakgrunden är svart och salladshuvudet är klarrt görnt. Man ser alla olika lager av stjälkarna tydligt." 
@@ -107,7 +108,7 @@
 
         </div>
 
-        <div class="menu-info">
+        <div class="menu-info"> <!-- section istället för div  -->
           <p class="text-two">Crispy iceberg lettuce Caribbean red habanero blueberry chia seed jam overflowing berries
             roasted butternut squash basmati thyme hummus falafel bowl cozy butternut cilantro lime vinaigrette heat
             mint
@@ -117,17 +118,17 @@
             <a href="#food-menu" class="arrow-two" aria-label="To restaurant menu">
               <img src="assets/icons/arrow2.svg" alt="###" height="30" width="34">
             </a>
-
           </div>
-        </div>
+
+        </div> <!-- section istället för div  -->
 
       </section>
 
-    </div>
+    </div> <!-- section istället för div  1 -->
 
     <!-- Page 2  -->
 
-    <div class="page-two" id="food-menu">
+    <div class="page-two" id="food-menu"> <!-- section istället för div  1 -->
 
       <!-- tre bilder -->
       <div class="images-page-two">
@@ -152,10 +153,10 @@
 
       </div>
 
-      <div class="food-menu">
+      <div class="food-menu"> <!-- article istället för div  1 -->
         <ul>
           <li>
-            <span class="halloumi"> Halloumi moklieh</span>
+            <span class="dish-name"> Halloumi moklieh</span>
             <div class="new">
               <span>New</span>
             </div>
@@ -182,7 +183,7 @@
           </li>
 
           <li>
-            <span class="moutabbal"> Moutabbal batinzian</span>
+            <span class="dish-name"> Moutabbal batinzian</span>
             <div class="vegan">
               <span>Vegan</span>
             </div>
@@ -191,7 +192,7 @@
           </li>
 
           <li>
-            <span class="artichoke"> Ardishoki </span>
+            <span class="dish-name"> Ardishoki </span>
             <div class="popular">
               <span>Popular</span>
             </div>
@@ -207,12 +208,12 @@
 
         </ul>
       </div>
-    </div>
+    </div> <!-- section istället för div  1 -->
 
 
     <!-- Page 3   -->
 
-    <div class="page-three">
+    <div class="page-three"> <!-- section istället för div  1 -->
 
       <div class="contact-form">
 
@@ -222,7 +223,7 @@
           <form>
 
             <label>
-              <span>Name</span>
+              <span>Name</span> <!-- ta ev. bort span-->
               <input type="text" name="name" required></label>
 
             <label>
@@ -254,44 +255,45 @@
         </fieldset>
       </div>
 
-      <div class="image-five">
+      <div class="image-five"> <!-- But ev ut mot figure -->
         <img src="assets/photos/table-set-for-dinner.jpg" alt="xxx" title="xxx" height="5819" width="3879"
           loading="lazy">
 
         <address class="adress">
-
+                                    <!-- Läggg ev til ett P -->
           <a href="tel:+4681234567">
-            <span class="material-symbols-outlined">
-              call</span>
+            <span class="material-symbols-outlined">call</span>
             +461234567</a><br />
-
+                                  <!-- Läggg ev til ett /P och ta bort /br?-->
+                                    <!-- Läggg ev til ett P -->
           <a href="mailto:book@toughcookie.com">
             <span class="material-symbols-outlined">
               @</span>
             book@toughcookie.com</a><br />
-
-          <div>
+                                    <!-- Läggg ev til ett /P och ta bort /br?-->
+                                    
+          <div>                     <!-- Byt ev til ett P -->
             <span class="material-symbols-outlined">
               location_on</span>
             Brända tomten <br />
             111 31 stockholm
-          </div>
+          </div>                  <!-- Byt ev till /P -->
         </address>
 
-      </div>
+      </div> <!-- But ev ut mot figure -->
 
     </div>
   </main>
 
   <footer>
-    <div class="cookie-banner">
+    <section class="cookie-banner" aria-live="accept/deny cookies pop-up">
       <p class="accept-text">You should accept cookies</p>
 
       <div class="cookie-buttons">
         <button class="decline-button">decline</button>
         <button class="accept-button">accept</button>
       </div>
-    </div>
+    </section> 
 
   </footer>
 

@@ -180,34 +180,17 @@ header {
         }
     }
 
-    .artichoke,
-    .halloumi,
-    .moutabbal {
-        grid-column: span 1;
-        text-transform: uppercase;
-        text-align: left;
-        min-width: 5em;
-        padding-left: 10px;
-    }
-
-    .halloumi {
-        min-width: 8em;
-    }
-
-    .moutabbal {
-        min-width: 10em;
-    }
-
     .dish-name {
         text-transform: uppercase;
         grid-column: span 2;
         text-align: left;
         padding-left: 10px;
         min-width: 10em;
+        position: relative;
     }
 
     .dish-price {
-        grid-column: 10 / span 2;
+        grid-column: 8 / span 4;
         text-align: right;
         padding-right: 8px;
     }
@@ -227,6 +210,7 @@ header {
         font-size: 0.8em;
         padding-top: 0.2em;
         padding-inline: 7px;
+        position: absolute;
     }
 
     .new {
@@ -234,12 +218,14 @@ header {
         transform: rotate(4deg);
         padding-top: 0.4em;
         max-width: 60%;
+        left: 12em;
     }
 
     .vegan {
         background-color: $client-primary-colour;
         transform: rotate(-4deg);
         max-width: 75%;
+        left: 14em;
 
         span {
             transform: rotate(4deg);
@@ -250,6 +236,7 @@ header {
     .popular {
         background-color: $client-secondary-colour;
         max-width: 95%;
+        left: 8em;
     }
 
 }
@@ -357,7 +344,7 @@ header {
 
         color: rgb(36, 170, 223);
         font-style: normal;
-        font-size: 2rem;
+        font-size: 4vw;
         text-shadow: -2px -2px 0 black;
         display: block;
 
@@ -417,6 +404,7 @@ header {
 
         .decline-button {
             background-color: $client-secondary-colour;
+            margin-bottom: 0.5em;
         }
 
         .accept-button {

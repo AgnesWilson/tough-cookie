@@ -10,10 +10,10 @@ KLART:
 [x] Gör New, vegan... skyltar 
 [x] Justera priser på maträtter 
 [x] Justera storleken på drizzle på desktop så den ligger vid H-et på Tahini
+[x] Fixa labels (new, vegan, popular)
 
 TO DO:
 [] Lägg till alt-text på bilder 
-[] Fixa labels (new, vegan, popular)
 [] Se till att info och liknande är på engelska 
 [] Lägg till info i metataggar (kolla i chatten från torsdagen angående kalle anka SEO)
 [] Justera import av typsnitt
