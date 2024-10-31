@@ -2,7 +2,7 @@
 
 
 KLART:
-[x] Lägg till pil vid salladshuvud 
+- [x] Lägg till pil vid salladshuvud 
 [x] Gör sida 3
 [x] Lägg till pil vid explore menu
 [x] Animera pil vid salladshuvud 
@@ -16,7 +16,7 @@ KLART:
 [x] Se till att info och liknande är på engelska 
 [x] Justera import av typsnitt
 [x] Lägg till alt-text på bilder 
-[ x ] Lägg till info i metataggar 
+[x] Lägg till info i metataggar 
 
 TO DO:
 [] Justera ev new, vegan, popular taggarnas distans 
