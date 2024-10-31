@@ -59,8 +59,8 @@ header {
 
             .drizzle {
                 color: $client-tertiary-colour;
-                font-size: 1.5em;
-                margin-right: -84px;
+                font-size: 1.47em;
+                margin-right: -64px;
             }
 
             .tahini {
@@ -72,8 +72,9 @@ header {
 
             .chickpeas {
                 color: $client-secondary-colour;
-                font-size: 1.1em;
-                margin-right: 63px;
+                font-size: 1em;
+                margin-right: 40px;
+                letter-spacing: 1.5px;
             }
         }
     }
