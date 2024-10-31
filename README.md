@@ -17,13 +17,13 @@ KLART:
 - [x] Justera import av typsnitt
 - [x] Lägg till alt-text på bilder 
 - [x] Lägg till info i metataggar 
+- [x] Lägg till länkar på menyn (home book table osv.)
+- [x] Justera font och font-size på lila sida 
 
 TO DO:
 - [] Justera ev new, vegan, popular taggarnas distans 
 - [] lägg till rätt storlet på style.scss på desktop mode
 
-- [] Justera font och font-size på lila sida 
-- [] Lägg till länkar på menyn (home book table osv.)
 - [] Tillgänglighetsanalys (lighthose)
 - [] Screenshota hemsida i olika lägen i olika browsers **
 - [] Gå igenom "vanliga misstag"
