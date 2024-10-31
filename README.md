@@ -26,9 +26,9 @@ KLART:
 - [x] Validera CSS **
 - [x] Validera html**
 - [x] Tillgänglighetsanalys (lighthose)
+- [x] Screenshota hemsida i olika lägen i olika browsers **
 
 TO DO:
-- [] Screenshota hemsida i olika lägen i olika browsers **
 
 
 Radbryt framför <img> så blir det lättare att skumma i koden.
@@ -39,7 +39,6 @@ Radbryt framför <img> så blir det lättare att skumma i koden.
 
 ATT SE ÖVER OM TID FINNS:
 --> Lägg till tablet - version
---> Se till att den lila sidan får en nav
 --> Gå igenom desktop + mobil och se om jag kan nestla och generellt snygga upp koden lite 
 
 
