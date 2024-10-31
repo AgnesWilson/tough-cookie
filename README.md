@@ -20,17 +20,20 @@ KLART:
 - [x] Lägg till länkar på menyn (home book table osv.)
 - [x] Justera font och font-size på lila sida 
 - [x] fixa mellanslag på tough cookie i mobil-vers
+- [x] Gå igenom "vanliga misstag"
+- [x] Läs Jennys kommentarer
+- [x] lägg till rätt storlet på style.scss på desktop mode
 
 TO DO:
 - [] Justera ev new, vegan, popular taggarnas distans 
-- [] lägg till rätt storlet på style.scss på desktop mode
+
 
 - [] Tillgänglighetsanalys (lighthose)
 - [] Screenshota hemsida i olika lägen i olika browsers **
-- [] Gå igenom "vanliga misstag"
-- [] Läs Jennys kommentarer
 - [] Validera CSS **
 - [] Validera html**
+
+Radbryt framför <img> så blir det lättare att skumma i koden.
 
 * 1 (Chrome, Edge, Firefox, Safari)
     Lägg skärmdumparna i en mapp som heter screenshots i ditt repo, och döp respektive till: ex edge-tablet.jpg
