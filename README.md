@@ -25,9 +25,9 @@ KLART:
 - [x] lägg till rätt storlet på style.scss på desktop mode
 - [x] Validera CSS **
 - [x] Validera html**
+- [x] Tillgänglighetsanalys (lighthose)
 
 TO DO:
-- [] Tillgänglighetsanalys (lighthose)
 - [] Screenshota hemsida i olika lägen i olika browsers **
 
 
