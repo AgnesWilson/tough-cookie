@@ -23,6 +23,7 @@ KLART:
 - [x] Gå igenom "vanliga misstag"
 - [x] Läs Jennys kommentarer
 - [x] lägg till rätt storlet på style.scss på desktop mode
+- [x] Validera CSS **
 
 TO DO:
 - [] Justera ev new, vegan, popular taggarnas distans 
@@ -30,14 +31,13 @@ TO DO:
 
 - [] Tillgänglighetsanalys (lighthose)
 - [] Screenshota hemsida i olika lägen i olika browsers **
-- [] Validera CSS **
 - [] Validera html**
 
 Radbryt framför <img> så blir det lättare att skumma i koden.
 
 * 1 (Chrome, Edge, Firefox, Safari)
     Lägg skärmdumparna i en mapp som heter screenshots i ditt repo, och döp respektive till: ex edge-tablet.jpg
-* 2 Ta en skärmdump på validerad kod, och lägg in i repot i en mapp som heter           validering.
+* 2 Ta en skärmdump på validerad kod, och lägg in i repot i en mapp som heter validering.
 
 ATT SE ÖVER OM TID FINNS:
 --> Lägg till tablet - version
