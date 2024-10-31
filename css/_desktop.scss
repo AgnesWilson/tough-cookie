@@ -13,7 +13,7 @@ header {
     h1 {
         word-break: break-all;
         width: 1em;
-        margin: auto;
+        margin: 3vw;
         font-size: 2vw; // justera vid behov i teblet-version
         line-height: 1.8;
 
@@ -21,6 +21,7 @@ header {
             //Cookie i tough cookie - i headern
             display: block;
             padding-top: 1em;
+            padding-left: 0em;
         }
     }
 }

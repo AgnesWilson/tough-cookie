@@ -19,6 +19,7 @@ KLART:
 - [x] Lägg till info i metataggar 
 - [x] Lägg till länkar på menyn (home book table osv.)
 - [x] Justera font och font-size på lila sida 
+- [x] fixa mellanslag på tough cookie i mobil-vers
 
 TO DO:
 - [] Justera ev new, vegan, popular taggarnas distans 
