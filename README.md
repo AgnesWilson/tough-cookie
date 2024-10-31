@@ -13,6 +13,9 @@ KLART:
 [x] Fixa labels (new, vegan, popular)
 
 TO DO:
+[] Ändra textstorleken påpriset på matmenyn 
+[] Justera ev new, vegan, popular taggarnas distans 
+[] lägg till rätt storlet på style.scss på desktop mode
 [] Lägg till alt-text på bilder 
 [] Se till att info och liknande är på engelska 
 [] Lägg till info i metataggar (kolla i chatten från torsdagen angående kalle anka SEO)
