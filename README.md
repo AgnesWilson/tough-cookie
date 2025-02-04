@@ -27,5 +27,3 @@ KLART:
 - [x] Validera html**
 - [x] Tillgänglighetsanalys (lighthose)
 - [x] Screenshota hemsida i olika lägen i olika browsers **
-
-testar 
