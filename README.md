@@ -28,22 +28,4 @@ KLART:
 - [x] Tillgänglighetsanalys (lighthose)
 - [x] Screenshota hemsida i olika lägen i olika browsers **
 
-TO DO:
-
-
-Radbryt framför <img> så blir det lättare att skumma i koden.
-
-* 1 (Chrome, Edge, Firefox, Safari)
-    Lägg skärmdumparna i en mapp som heter screenshots i ditt repo, och döp respektive till: ex edge-tablet.jpg
-* 2 Ta en skärmdump på validerad kod, och lägg in i repot i en mapp som heter validering.
-
-ATT SE ÖVER OM TID FINNS:
---> Lägg till tablet - version
---> Gå igenom desktop + mobil och se om jag kan nestla och generellt snygga upp koden lite 
-
-
-
-
-
-
-Massa bra grejer om pilar och typsnitt för ikoner under dagens lektion med Jenny (28/10)
+testar 
